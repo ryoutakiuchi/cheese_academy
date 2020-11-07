@@ -1,0 +1,503 @@
+
+/*全体　共通
+最初から設定してあるので特に変更
+しなくても大丈夫です♪
+-----------------*/
+body{
+	font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.75;
+	font-size: 16px;
+}
+
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*ーーーーーーーーーーー*/
+/*この下から記述*/
+/*ーーーーーーーーーーー*/
+body{
+	width: 960px;
+}
+
+.title_box{
+	height: 450px;
+	background: url(../img/mainbg.png);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.title{
+	font-size: 48px;
+	color: white;
+}
+
+.subtitlle{
+	font-size: 36px;
+	color: white;
+
+	line-height: 40px;
+}
+
+	
+
+
+.main{
+	padding-top: 20px;
+	display: flex;
+	color: black;
+	border-bottom: solid 1px #efefef;
+	height: 80px;
+}
+
+.logo{
+	width: 100%;
+}
+.header_logo{
+	width: 60%;
+	padding-left: 80px;
+}
+
+
+ul{
+	font-size: 21px;
+	display: flex;
+	justify-content: space-around;
+	width: 500px;
+	color:	black
+	
+	
+}
+
+.menu>a{
+	color: black;
+}
+
+.about{
+	padding-top: 120px;
+	text-align: center;
+	
+}
+
+.title_about{
+	color: #ffd61a;
+	font-size: 24px;
+}
+.content0{
+	padding-top: 24px;
+}
+.content1{
+	padding-top: 64px;
+
+}
+.content2{
+	padding-top: 40px;
+}
+.content3{
+	padding-top: 40px;
+}
+.content4{
+	padding-top: 40px;
+}
+
+.about_img{
+	padding-top: 80px;
+	display: flex;
+	flex-wrap: nowrap;
+	width: 20px;
+	
+}
+	
+.img1{
+	width: 240px;
+}
+.img2{
+	width: 240px;
+}
+.img3{
+	width: 240px;
+}
+.img4{
+	width: 240px;
+}
+	
+.course{
+	padding-top: 64px;
+	text-align: center;
+}
+
+.title_course{
+	font-size: 24px;
+	color: #222222;
+}
+
+.course_content{
+	padding-top: 64px;
+	display: flex;
+}
+
+.course_img{
+	width: 480px;
+}
+.img5{
+	width: 100%;
+}
+
+.course_text_box{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 48px;
+	background-color: whitesmoke;
+}
+
+.course_text_title{
+	font-size: 24px;
+	color: #222222;
+}
+
+.course_text_content{
+	padding-top: 40px;
+}
+
+/*      ここからコピー  */
+.course_content2{
+	display: flex;
+}
+
+.course_img2{
+	width: 480px;
+}
+.img6{
+	width: 100%;
+}
+
+.course_text_box2{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-right: 48px;
+	background-color: whitesmoke;
+}
+
+.course_text_title2{
+	font-size: 24px;
+	color: #222222;
+}
+
+.course_text_content2{
+	padding-top: 40px;
+}
+
+/*      ここからコピー  */
+.course_content3{
+	display: flex;
+}
+
+.course_img3{
+	width: 480px;
+}
+.img7{
+	width: 100%;
+}
+
+.course_text_box3{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 48px;
+	background-color: whitesmoke;
+}
+
+.course_text_title3{
+	font-size: 24px;
+	color: #222222;
+}
+
+.course_text_content3{
+	padding-top: 40px;
+}
+
+.news{
+	text-align: center;
+
+}
+
+.title_news{
+	padding-top: 64px;
+	color: #ffd61a;
+	font-size: 24px;
+}
+
+.furigana{
+	padding-bottom: 64px;
+}
+
+.news_content_box{
+	display: flex;
+	justify-content: center;
+}
+
+
+
+.news1text{
+	justify-content: space-around;
+}
+.date1{
+	flex-direction: column;
+	padding-top: 32px;
+	padding-bottom: 24px;
+}
+
+.box1{
+	flex-direction: column;
+	width: 250px;
+	height: auto;
+	font-size: 11px;
+}
+
+.box2{
+	flex-direction: column;
+	width: 250px;
+	margin-right: 32px;
+	margin-left: 32px;
+	height: auto;
+	font-size: 11px;
+}
+
+.box3{
+	flex-direction: column;
+	width: 250px;
+	height: auto;
+	font-size: 11px;
+}
+
+.news1{
+	width: 250px;
+	height: auto;
+}
+
+.news2{
+	width: 250px;
+	height: auto;
+}
+
+.news3{
+	width: 250px;
+	height: auto;
+}
+
+.more__{
+	text-align: center;
+	padding-left: 355px;
+	padding-right: 355px;
+	padding-bottom: 48px;
+	padding-top: 56px;
+}
+
+.more{
+	text-align: center;
+	font-size: 21px;
+	color: white;
+    background-color: #ffd61a;
+
+}
+	
+.access{
+	background-color: #fafafa;
+	padding-top: 48px;
+}
+.access_title{
+	font-size: 24px;
+	font-weight: 24px;
+	padding-top: 64px;
+	padding-bottom: 24px;
+	text-align: center;
+}
+
+.access_sub{
+	text-align: center;
+	padding-bottom: 64px;
+}
+.ggmap{
+	position: relative;
+	text-align: center;
+}
+.info{
+	background-color: whitesmoke;
+
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+td{
+	padding-left: 48px;
+}
+tr{
+	line-height: 40px;
+
+	
+}
+
+.contact{
+	text-align: center;
+	padding-top: 80px;
+}
+
+.contact_coment1{
+	padding-bottom: 80px;
+}
+.contact_coment3{
+	padding-top: 32px;
+	padding-bottom: 80px;
+}
+
+.contact_form{
+	font-size: 24px;
+}
+label{
+	display: flex;
+	align-items: center;
+	padding-bottom: 24px;
+	
+	
+}
+
+.contact_comet4{
+	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 700px;
+}
+.qqq{
+	border: 1px solid #bfbfbf;
+  font-size: 18px;
+  margin-bottom: 24px;
+  margin-left: 120px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 36px;
+  flex: 1;
+  width: 100%;
+  max-width: 328px;
+  background: white
+  
+}
+
+.qqqq{
+	border: 1px solid  #bfbfbf;
+  font-size: 18px;
+  margin-bottom: 24px;
+  flex: inherit;
+  margin-left: 120px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 36px;
+  flex: 1;
+  width: 100%;
+  max-width: 328px;
+  background: white
+  
+}
+
+.qqqqq{
+	border: 1px solid #bfbfbf;
+  font-size: 18px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 40px;
+  height: 36px;
+  flex: 1;
+  width: 100%;
+  max-width: 328px;
+  background: white
+  }
+
+#detail{
+	border: 1px solid #bfbfbf;
+  font-size: 18px;
+  margin-left: 120px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 108px;
+  flex: 1;
+  width: 100%;
+  max-width: 328px;
+  background: white
+}
+.check{
+	display: flex;
+}
+
+.check2{
+	flex-direction: column;
+	padding-left: 90px;
+	
+}
+.check3{
+	padding-top: 40px;
+}
+
+
+
+.enter{
+	text-align: center;
+	box-shadow: goldenrod;
+	box-sizing: 3px 3px 3px 3px;
+	
+	padding-top: 40px;
+
+	text-align: center;
+
+	padding-left: 250px;
+	padding-right: 250px;
+	
+}
+
+.enter_{
+	background-color: goldenrod;
+	width: 30%;
+	}
+
+/*どの部分のcssに対して
+命令をしているのかコメントを
+記載しよう！
+---------------------*/
+
+
+/*
+
+---------------------*/
+
+
+
+/*
+---------------------*/
+
+
+
+/*
+---------------------*/
+
+
